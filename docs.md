@@ -130,7 +130,8 @@ The default is `['email']`.
 The prop values must be strings.
 Only these props may be changed with verification by the service.
 At least one of these props must be provided whenever a short token is used,
-as the short token alone is too susceptible to brute force attack. 
+as the short token alone is too susceptible to brute force attack.
+- skipIsVerifiedCheck: Do not check `isVerified` prop on sendResetPwd and resetPwd.
 
 The service creates and maintains the following properties in the `user` item:
 
